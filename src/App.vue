@@ -1,5 +1,7 @@
 <script setup>
 import HeaderBase from "@/components/HeaderBase.vue";
+
+import HomePage from "@/pages/HomePage.vue";
 </script>
 
 <template>
@@ -11,9 +13,7 @@ import HeaderBase from "@/components/HeaderBase.vue";
       A simple app built in Vue used for quick testings and recipes/examples.
     </template>
   </HeaderBase>
-
-  <main>
-  </main>
+  <HomePage/>
 </template>
 
 <style scoped></style>
