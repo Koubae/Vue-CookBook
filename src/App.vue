@@ -1,13 +1,19 @@
-<script setup></script>
+<script setup>
+import HeaderBase from "@/components/HeaderBase.vue";
+</script>
 
 <template>
-    <header>
-        <h1>Hello world</h1>
-    </header>
+  <HeaderBase>
+    <template #title>
+      <h2>Vue-CookBook</h2>
+    </template>
+    <template #text>
+      A simple app built in Vue used for quick testings and recipes/examples.
+    </template>
+  </HeaderBase>
 
-    <main>
-        <p>Something</p>
-    </main>
+  <main>
+  </main>
 </template>
 
 <style scoped></style>
