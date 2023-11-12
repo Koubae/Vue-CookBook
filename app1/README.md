@@ -1,4 +1,4 @@
-# Vue-CookBook
+# Vue-CookBook - app1
 
 This template should help get you started developing with Vue 3 in Vite.
 Done with _Vue 3.3.4_
